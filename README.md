@@ -4,7 +4,7 @@ A Telegram support bot that answers **only from a company's own documents** and 
 
 **Stack:** n8n · Google Gemini · Supabase (pgvector) · Google Drive · Telegram
 
-![Chat demo](images/telegram-demo.png)
+![Chat demo](n8n-workflow.png.png)
 
 ## Problem
 Support teams answer the same questions every day (fees, batches, refunds, policies). A normal chatbot can guess a wrong price. This bot is built so it does not guess.
