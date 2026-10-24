@@ -4,8 +4,7 @@ A Telegram support bot that answers **only from a company's own documents** and 
 
 **Stack:** n8n · Google Gemini · Supabase (pgvector) · Google Drive · Telegram
 
-![Chat demo](n8n-workflow.png.png)
-
+![Chat demo](telegram-demo.png.png)
 ## Problem
 Support teams answer the same questions every day (fees, batches, refunds, policies). A normal chatbot can guess a wrong price. This bot is built so it does not guess.
 
@@ -17,7 +16,7 @@ Support teams answer the same questions every day (fees, batches, refunds, polic
 5. If the answer is missing, unclear or conflicting, the bot says so and alerts the staff.
 6. **Enrollment:** when a student says they want to join a course, the bot asks for their name and mobile number, repeats the details, and waits for a YES. Then it saves the lead to Google Sheets (no duplicates), tells the student that the team will call, and alerts the staff with the details.
 
-![n8n workflow](images/n8n-workflow.png)
+![n8n workflow](n8n-workflow.png.png)
 
 ## Production-minded details
 - Enrollment details are validated in code (phone number check, length limits, spreadsheet-formula protection), not left to the AI
